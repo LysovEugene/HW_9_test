@@ -5,6 +5,12 @@ module.exports = {
   output: {
       path: path.resolve(__dirname, 'build'),
       filename: 'my-bandle.js'
-  },
+    },
+    module: {
+        rules: [{}]
+    },
+    devServer: {
+        port: 4444
+    },
 };
 
